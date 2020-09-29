@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lumen/bootstrap.min.css" integrity="sha384-GzaBcW6yPIfhF+6VpKMjxbTx6tvR/yRd/yJub90CqoIn2Tz4rRXlSpTFYMKHCifX" crossorigin="anonymous">
+  <title>BookListApp</title>
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="display-4 text-center">
+      <i class="fas fa-book-open text-primary"></i><span
+       class="text-primary">Book</span>List</h1>
+       <form id="book-form">
+       <div id="form-group">
+         <label for="title">Title</label>
+         <input type="text" id="title" class="form-control">
+       </div>
+       <div id="form-group">
+        <label for="author">Author</label>
+        <input type="text" id="author" class="form-control">
+      </div>
+      <div id="form-group">
+        <label for="isbn">ISBN#</label>
+        <input type="text" id="isbn" class="form-control">
+      </div>
+      <input type="submit" value="Add Book"
+      class="btn btn-primary btn-block mt-2">
+      <table class="table table-striped mt-5">
+        <thead>
+          <tr>
+            <th> Title </th>
+            <th>Author </th>
+            <th> ISBN# </th>
+            <th></th>
+            <tbody id="book-list">
+
+            </tbody>
+          </tr>
+        </thead>
+      </table>
+       </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

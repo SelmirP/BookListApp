@@ -1,0 +1,7 @@
+Book List Application
+
+This project is worked in javascript and local storage,in VS,without frameworks.
+Simple book-list where we can add the book, author and the isbn of the book,wich serve like id.
+WHen we add the book we have confirmation of alert message like 'Book Added',when we delete book
+it dissapear and we got message like 'Book Deleted', also there is a gumb with 'X' when we click
+on it starts the function. All books we store on local storage,removing and/or adding new ones.
